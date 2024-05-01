@@ -5,7 +5,7 @@ from time import sleep
 
 import logging
 
-from watchdog.observers import Observer
+from watchdog.observers import Observer #can't get watchdog.observers nor watchdog.events to work. (Im dumb and don't have enough time to fix it)
 from watchdog.events import FileSystemEventHandler
 
 source_dir = "/path/to/downloads"
